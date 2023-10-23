@@ -20,7 +20,7 @@ private:
     int y;           // Posição Y do trem na tela
     int ID;          // ID do trem
     int velocidade;  // Velocidade em milissegundos entre as mudanças de posição do trem
-    Semaforo *semaforos; // Semáforos utilizados para administrar o andamento dos trens e evitar colisões
+    Semaforo *semaforo; // Semáforos utilizados para administrar o andamento dos trens e evitar colisões
 };
 
 #endif // TREM_H
